@@ -1,13 +1,24 @@
-# Nix
-> nix-shell
+### Nix
 
-# Init
-> pp2n psc-package2nix
-> pp2n install
+```
+nix-shell
+```
 
-# Build
-> pulp --watch --psc-package build --include src --to dist/app.js
+### Init
 
-# Server
-> pulp --psc-package server
+```
+pp2n psc-package2nix
+pp2n install
+```
 
+### Build
+
+```
+pulp --watch --psc-package build --include src --to dist/app.js
+```
+
+### Server
+
+```
+pulp --psc-package server
+```
